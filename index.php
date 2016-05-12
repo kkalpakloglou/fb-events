@@ -2,7 +2,7 @@
 
 require 'fbData.php';
 
-echo "let's start!<br/>";
+echo "Getting all regions from db...!<br/>";
 $regions = new Regions();
 $all_regions = $regions->retrieve();
 
